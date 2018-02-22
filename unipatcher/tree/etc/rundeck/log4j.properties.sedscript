@@ -1,0 +1,4 @@
+s/org.apache.log4j.DailyRollingFileAppender/org.apache.log4j.ConsoleAppender/
+s/^log4j\..*\.append=/# \0/
+s/^log4j\..*\.datePattern=/# \0/
+s/^log4j\..*\.file=/# \0/
