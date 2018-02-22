@@ -1,7 +1,7 @@
 FROM debian:latest
 MAINTAINER Aleksey @soar Smyrnov (//soar.name)
 
-ARG RUNDECK_PACKAGE_NAME=rundeck-2.10.0-1-GA.deb
+ARG RUNDECK_PACKAGE_NAME=rundeck_2.10.6-1-GA_all.deb
 
 RUN apt-get update \
  && apt-get install -yq --no-install-recommends --no-install-suggests \
